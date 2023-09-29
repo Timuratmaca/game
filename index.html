@@ -7,19 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <title>sayı sayma.com</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="i.webp" type="image/webp">
 </head>
 <body>
+<div class="modal">
+    <form action="">
+        <h2 id="title">settings</h2>
+        <button class="buttons" id="single">single player</button>
+        <button class="buttons" id="multi">multi player</button>
+    </form>
+</div>
+<div id="modal2" class="modal">
+    <form action="">
+        <h2 id="title">write your word</h2>
+        <input id="modalinput" type="text">
+        <button id="ok" >OK</button>
+    </form>
+</div>
     <form action="">
         <h1 id="h1">hangman</h1>
         <img id="img" src="hangman0.png" alt="">
         <h2 id="shifr">****</h2>
         <input id="input" type="text" maxlength="1" placeholder="?">
-        <button id="button">ok</button>
-        <button id="newbutton">new game</button>
+        <button class="oder" id="button">ok</button>
+        <button class="oder" id="newbutton">new game</button>
+        <button class="oder" id="settings">settings</button>
         <p id="letters">good luck</p>
     </form>
     <script src="script.js"></script>
 </body>
+
 </html>
+
+
+

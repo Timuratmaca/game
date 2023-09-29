@@ -28,6 +28,49 @@ img{
     display: block;
     margin: auto;
 }
+#button{
+    display:block;
+    margin-left: 45%;
+    width: 50px;
+    box-shadow: 0 0 10px red;
+}
+#button:hover{
+    box-shadow:0 0 20px red;
+    
+}
+#title{
+    display: block;
+    width: 50%;
+    margin:auto;
+    margin-top: 5%;
+    box-shadow: 0 0 10px red;
+}
+#ok{
+    margin-bottom:10px;
+    transition: 1s;
+    width: 40%;
+    
+}
+#ok:hover{
+    box-shadow: 0 0 10px yellow;
+    width: 50%;
+}
+#modalinput{
+ margin-top: 10px;
+ margin-bottom:10px;
+ width: 50%;
+ transition: 1s;
+}
+#modalinput:hover{
+    box-shadow: 0 0 10px blue;
+    width: 60%;
+}
+.oder{
+    transition: 0.7s;
+}
+.oder:hover{
+    box-shadow: 0 0 10px coral;
+}
 input{
     display: block;
     margin: auto;
@@ -48,5 +91,29 @@ button{
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.382);
     margin-top:10px ;
+}
+.modal{
+    transform: translateY(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* margin-bottom: 10px; */
+    width:100%;
+    height:100%;
+    /* filetr dla zadnego fona */
+    backdrop-filter: grayscale(1) blur(10px);
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+.buttons{
+    margin: 5%;
+    box-shadow: 0 0 10PX red;
+    transition:0.5s;
+}
+.buttons:hover{
+    box-shadow: 0 0 15px white;
 }
 

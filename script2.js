@@ -10,6 +10,10 @@ let imgnumber=0
 let letters=document.getElementById("letters")
 let bukvi=""
 let newbutton=document.getElementById("newbutton")
+let single=document.getElementById("single")
+
+
+
 
 shifr.innerHTML="*".repeat(secret.length)
 button.onclick=function  (event) {
@@ -64,6 +68,12 @@ newbutton.onclick=function (event) {
     imgnumber=0
     shifr.innerHTML="*".repeat(secret.length)
     
+}
+single.onclick=function (event) {
+    console.log(input.value)
+}
+single.onclick = function(event){
+    console.log(input.value)
 }
 
 

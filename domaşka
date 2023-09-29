@@ -1,0 +1,23 @@
+po najatuyu na ok zakrıvayetsa modal
+
+
+
+
+
+
+; bacdrop-filter:grayscle(1) blur(10px) 
+            ;    siyah beyaz blur
+
+    //! dla tavo ştobı vıvesti slova iz inputa  
+    // console.log(modalinput.value);
+
+zaçem mı napisali from??
+value:znaçeniye
+
+
+sdelat nazad wordmodal
+
+wordmodal.style.transform="translateY(0)" 
+Kirill Yerenkov17:55
+Если нажать на single, то в h1 будет "Hangman", а если нажать на "multiplayer", то в h1 будет "Hangman Multiplayer"
+fxq-bdsr-ygf
